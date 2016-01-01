@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ag-digital/monty-slave/issues"
   },
-  "homepage": "https://github.com/ag-digital/monty-slave#readme"
+  "homepage": "https://github.com/ag-digital/monty-slave#readme",
+  "dependencies": {
+    "botkit": "0.0.5"
+  }
 }
