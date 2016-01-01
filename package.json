@@ -1,0 +1,19 @@
+{
+  "name": "montyslave",
+  "version": "1.0.0",
+  "description": "Ag-Digital Pivotal Tracker Slackbot integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ag-digital/monty-slave.git"
+  },
+  "author": "Eric Juta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ag-digital/monty-slave/issues"
+  },
+  "homepage": "https://github.com/ag-digital/monty-slave#readme"
+}
