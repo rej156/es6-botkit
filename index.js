@@ -1,10 +1,6 @@
-import Botkit from 'botkit'
-const controller = Botkit.slackbot()
+import webdriverio from 'webdriverio'
+const options = { desiredCapabilities: { browserName: 'chrome' } };
+const client = webdriverio.remote(options);
 
-const bot = controller.spawn({
-  token: process.env.token
-})
-
-bot.startRTM((err, bot, payload) => {
-  if(err) {throw new Error(err)}
-})
+client.init()
+  .url("http://shop.kyliecosmetics.com/products/koko-k").getText('#AddToCartText').then(x => console.log(x))
